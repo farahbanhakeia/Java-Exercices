@@ -42,12 +42,12 @@ public class Voiture {
     }
 
     // création des méthodes
-    private void afficherInfos()
+   public void afficherInfos()
     {
         System.out.println("la marque est : "+marque+" le modéle est : "+modele+" année : "+annee+" kilometrage :"+kilometrage+" Km");
     }
     //
-    private int rouler(int km)
+    public int rouler(int km)
     {
         if(kilometrage<=0)
         {
